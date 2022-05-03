@@ -27,11 +27,10 @@ img_hsize = 512
 gpu = 'T'
 n_classes = 2
 # label_target = 'Tuberculosis'
-label_target = 'Pneumonia'
+label_target = 'Pneumonia'  # select
 answer=2 #A
-folds=[1]
 
-savedir= './Multi_checkpoint/'+label_target
+pretrained_modeldir= './Multi_checkpoint/'+label_target
 def get_train_validation_files(ab_label='Tuberculosis'):
 
     validation_files = []
@@ -188,15 +187,15 @@ def main():
     netside60L = mymodel(n_classes).to(device)
 
 
-    checkpoint = torch.load(savedir + '_front.pth')
+    checkpoint = torch.load(pretrained_modeldir + '_front.pth')
     netfront.load_state_dict(checkpoint['model_state_dict'])
-    checkpoint = torch.load(savedir + '_side30R.pth')
+    checkpoint = torch.load(pretrained_modeldir + '_side30R.pth')
     netside30R.load_state_dict(checkpoint['model_state_dict'])
-    checkpoint = torch.load(savedir + '_side30L.pth')
+    checkpoint = torch.load(pretrained_modeldir + '_side30L.pth')
     netside30L.load_state_dict(checkpoint['model_state_dict'])
-    checkpoint = torch.load(savedir + '_side60L.pth')
+    checkpoint = torch.load(pretrained_modeldir + '_side60L.pth')
     netside60L.load_state_dict(checkpoint['model_state_dict'])
-    checkpoint = torch.load(savedir + '_side60R.pth')
+    checkpoint = torch.load(pretrained_modeldir + '_side60R.pth')
     netside60R.load_state_dict(checkpoint['model_state_dict'])
 
     testdata = get_train_validation_files(ab_label=label_target)
