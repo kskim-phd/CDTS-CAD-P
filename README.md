@@ -19,7 +19,7 @@ pytorch-gradcam[https://github.com/jacobgil/pytorch-grad-cam] (Thanks for Jacob 
 ------
 ## Environments
 
-The setting of the virtual environment we used is described as requirement.txt.
+The setting of the virtual environment we used is described as packagelist.txt.
 
 ------
 ## Multi view dataset
