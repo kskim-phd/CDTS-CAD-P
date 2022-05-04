@@ -2,7 +2,7 @@
 
 # AI-based computer-aided diagnostic system of chest digital tomography synthesis: Demonstrating comparative advantage with X-ray-based AI systems
 
-We release DTS-CAD evaluation code.
+We release CDTS-CAD-P evaluation code.
 
 Collaborators: Kyung-su Kim, Juhwan Lee, Seongje Oh,
 
