@@ -1,4 +1,4 @@
-# CDTS-CAD-P
+# CDTS-CAD
 
 # AI-based computer-aided diagnostic system of chest digital tomography synthesis: Demonstrating comparative advantage with X-ray-based AI systems
 
