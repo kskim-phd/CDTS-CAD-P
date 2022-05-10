@@ -4,7 +4,7 @@
 
 We release CDTS-CAD evaluation code.
 
-Collaborators: Kyung-su Kim, Juhwan Lee, Seongje Oh,
+Collaborators: Kyung-su Kim*, Juhwan Lee*, Seongje Oh* (Equal contribution)
 
 Detailed instructions for testing the image are as follows.
 
