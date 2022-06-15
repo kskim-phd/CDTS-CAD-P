@@ -24,7 +24,7 @@ The setting of the virtual environment we used is described as packagelist.txt.
 ------
 ## Multi view dataset
 
-Please downloading the our multi view dataset [here]()
+Please send me a request email (kskim.doc@gmail.com) for that inference sample data (It will be open only to reviewers before publication).
 
 ------
 ## N/A diagnosis (5/2)
