@@ -14,7 +14,7 @@ Detailed instructions for testing the image are as follows.
 
 A PyTorch implementation of DTS-CAD based on original pytorch-gradcam code.
 
-pytorch-gradcam[https://github.com/jacobgil/pytorch-grad-cam] (Thanks for Jacob Gildenblat and contributors.)
+pytorch-gradcam [https://github.com/jacobgil/pytorch-grad-cam] (Thanks for Jacob Gildenblat and contributors.)
 
 ------
 ## Environments
