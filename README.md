@@ -29,7 +29,7 @@ Please send me a request email (kskim.doc@gmail.com) for that inference sample d
 ------
 ## N/A diagnosis (5/2)
 
-please downloading the pre-trained weight file [here](https://drive.google.com/file/d/198TmyO5YtXlO-Acn5VE16n_52s5bscSb/view?usp=sharing). 
+Please downloading the pre-trained weight file [here](https://drive.google.com/file/d/198TmyO5YtXlO-Acn5VE16n_52s5bscSb/view?usp=sharing). 
 Please run "Classification/N_A_inference.py"
 
 ```
